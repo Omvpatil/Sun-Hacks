@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body>
+    <section class="title">
+        <span>Who are You ?</span>
+    </section>
+    <section class="buttons">
+        <button id="Recruit">
+            Recruiter
+        </button>
+        <button id="Applicant">
+            Applicant
+        </button>
+    </section>
+    <style>
+        body{
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        .title{
+            font-size: 5rem;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-weight: 600;
+            text-align: center;
+            margin-top:22%;
+        }
+        .buttons{
+            display: flex;
+            flex-direction: row;
+            gap:5rem;
+            margin-left: 33%;
+            margin-top: 5vh;
+        }
+        #Recruit,
+        #Applicant{
+            padding: 2rem 4rem;
+            font-size:2rem;
+            border-radius: 8px;
+            background-color: #fff;
+            border:#1C9985 solid 5px;
+            cursor: pointer;
+        }
+        #Recruit:hover,
+        #Applicant:hover{
+            background-color: #1C9985;
+        }
+    </style>
+</body>
+</html>
